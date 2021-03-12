@@ -1,0 +1,130 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: sans-serif;
+  /*background: linear-gradient(-45deg, #ffffff, #4caf4fce);*/
+  background-image: url("https://wallpaperaccess.com/full/1109072.jpg");
+
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section {
+  bottom: 10rem;
+}
+.profile {
+  border-radius: 50%;
+  width: 200px;
+  margin-bottom: 1rem;
+}
+
+.card-img-top {
+  transition: transform 0.3s;
+  object-fit: cover;
+}
+.card-img-top:hover {
+  -webkit-box-shadow: 0px 8px 13px -1px rgba(0, 0, 0, 0.72);
+  box-shadow: 0px 8px 13px -1px rgba(0, 0, 0, 0.72);
+  transform: scale(1.05);
+  z-index: 1;
+  transition: 0.5s;
+}
+.contact {
+  padding: 20px 15%;
+}
+.btn {
+  width: 120px;
+  border-radius: 2rem;
+}
+.my_btn {
+  border: none;
+  background: #dc3545;
+}
+.my_btn:hover {
+  background: #a82936;
+}
+.text-left {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: capitalize;
+}
+.typewrite {
+  text-decoration: none;
+  color: rgb(58, 58, 58);
+}
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+.scroller {
+  text-align: justify;
+  text-justify: inter-word;
+  height: 130px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.fixed-bottom {
+  margin-right: 1rem;
+}
+.display-2, .fw-light{
+font-family: "Lucida Console", "Courier New", monospace;
+margin-bottom: 2rem;
+}
+.my_projects, .card-body{
+    color: rgb(58, 58, 58);
+}
+.services {
+  /*
+  background-image: url("https://i.pinimg.com/originals/3c/d7/63/3cd76350e2fbf6101ccf5e832639eeb6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background: rgb(58, 58, 58);
+  color: white;
+  padding: 5rem 0 5rem 0;
+}
+.services-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: transform 0.3s;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+.services-img:hover {
+  -webkit-box-shadow: 0px 8px 13px -1px rgba(0, 0, 0, 0.72);
+  box-shadow: 0px 8px 13px -1px rgba(0, 0, 0, 0.72);
+  transform: scale(1.05);
+  z-index: 1;
+  transition: 0.5s;
+}
+.col-sm {
+  padding: 2rem 2rem 2rem 2rem;
+}
+.services-info {
+  /*text-align: justify;
+  text-justify: inter-word;*/
+  color: #afafaf;
+  height: 200px;
+}
+.contact{
+    background: rgb(58, 58, 58);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color: #afafaf;
+}
+.my_footer {
+  /*background: rgb(58, 58, 58);*/
+}
